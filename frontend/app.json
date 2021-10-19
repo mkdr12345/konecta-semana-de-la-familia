@@ -18,8 +18,8 @@
     ],
     "android": {
       "useNextNotificationsApi": true,
-      "package": "com.instagram.simcoder",
-      "googleServicesFile": "./google-services.json",
+      "package": "****",
+      "googleServicesFile": "****",
       "config": {
         "googleSignIn": {
           "apiKey": "****"
@@ -27,19 +27,22 @@
       }
     },
     "ios": {
-      "buildNumber": "1.0.0",
+      "buildNumber": "***",
       "supportsTablet": true,
-      "bundleIdentifier": "com.instagram.simcoder",
+      "bundleIdentifier": "***",
       "config": {
         "googleSignIn": {
           "reservedClientId": "****"
         },
         "googleMapsApiKey": "****"
       },
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "googleServicesFile": "***"
     },
     "web": {
-      "favicon": "./assets/logo.png"
-    }
+      "favicon": "***"
+    },
+    "packagerOpts": {
+      "sourceExts": [ "js", "json", "ts", "tsx", "jsx", "vue"],
+    "config" : "metro.config.js"    }
   }
 }
